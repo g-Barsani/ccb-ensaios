@@ -1,0 +1,4 @@
+ALTER TABLE `ccb`.`tbd_city` 
+ADD CONSTRAINT `ID_STATE`
+  FOREIGN KEY (`ID_STATE`)
+  REFERENCES `ccb`.`tbd_state` (`ID_STATE`)

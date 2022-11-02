@@ -1,0 +1,5 @@
+ALTER TABLE `ccb`.`tbd_state` 
+ADD CONSTRAINT `ID_COUNTRY`
+  FOREIGN KEY (`ID_COUNTRY`)
+  REFERENCES `ccb`.`tbd_country` (`ID_COUNTRY`)
+

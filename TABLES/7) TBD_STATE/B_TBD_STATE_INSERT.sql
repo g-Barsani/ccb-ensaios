@@ -1,0 +1,3 @@
+INSERT INTO TBD_STATE (DE_STATE, ID_COUNTRY)
+	VALUES
+    ('São Paulo', 1);

@@ -1,0 +1,4 @@
+ALTER TABLE `ccb`.`tbd_event` 
+ADD CONSTRAINT `ID_EVENT_TYPE`
+  FOREIGN KEY (`ID_EVENT_TYPE`)
+  REFERENCES `ccb`.`tba_event_type` (`ID_EVENT_TYPE`)

@@ -1,0 +1,3 @@
+INSERT INTO TBD_CITY (DE_CITY, ID_STATE)
+	VALUES
+    ('Guarulhos', 1);
